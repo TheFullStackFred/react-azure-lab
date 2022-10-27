@@ -1,9 +1,12 @@
-import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className='App'>
-      <h1>hej</h1>
+      <Header />
+      <h1>Azure React Project</h1>
+      <Footer />
     </div>
   )
 }

@@ -1,5 +1,13 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+/* Global styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Bungee Spice', cursive;
 }

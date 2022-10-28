@@ -111,6 +111,7 @@ img {
   border-radius: 10px;
   color: #fff;
   text-align: center;
+  margin: 0 10px;
 }
 
 #quotes-card:hover {
@@ -118,6 +119,11 @@ img {
   transform: rotate(25deg);
   transition: 0.8s;
   border-radius: 100px;
+}
+
+#quotes-card h3 {
+  font-family: initial;
+  font-size: 15px;
 }
 
 /* Footer */

@@ -1,14 +1,20 @@
 [
   {
     "id": 1,
-    "quote": "Hej jag heter Adam",
+    "quote": "We are all born ignorant, but one must work hard to remain stupid.",
     "author": "Calle Özmehak",
     "image": "images/calle.jpg"
   },
   {
     "id": 2,
-    "quote": "Hej jag heter Calle",
+    "quote": "A stupid man--the most dangerous animal of all.",
     "author": "Adam Agerling",
     "image": "images/adam.jpg"
+  },
+  {
+    "id": 3,
+    "quote": "We live in the era of smart phones and stupid people.",
+    "author": "Mahdi Kamankesh",
+    "image": "images/mahdi.jpg"
   }
 ]

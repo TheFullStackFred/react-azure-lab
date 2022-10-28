@@ -136,6 +136,36 @@ img {
   margin: auto;
 }
 
+/* Contact */
+#contact {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact form {
+  background-color: #000;
+  opacity: 0.8;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  border: 3px solid #28a745;
+  border-radius: 10px;
+}
+
+#contact form input,
+textarea {
+  margin: 5px 5px;
+  padding: 10px;
+  border: 2px solid #e7900d;
+  border-radius: 5px;
+}
+
+#submit {
+  cursor: pointer;
+}
+
 /* Footer */
 #footer {
   display: flex;

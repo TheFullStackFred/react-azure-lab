@@ -1,11 +1,11 @@
 import React from 'react'
-import FetchData from '../components/FetchData'
+import GetData from '../components/GetData'
 
 const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <FetchData />
+      <GetData />
     </div>
   )
 }

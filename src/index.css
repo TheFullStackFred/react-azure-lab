@@ -126,6 +126,16 @@ img {
   font-size: 15px;
 }
 
+/* About */
+#about {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
 /* Footer */
 #footer {
   display: flex;
@@ -139,4 +149,14 @@ img {
   position: fixed;
   bottom: 0px;
   padding: 0 30px;
+}
+
+@media (max-width: 948px) {
+  #getdata {
+    flex-direction: column;
+  }
+
+  #quotes-card {
+    margin: 10px 40px;
+  }
 }

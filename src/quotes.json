@@ -3,6 +3,12 @@
     "id": 1,
     "quote": "Hej jag heter Adam",
     "author": "Calle Özmehak",
-    "image": "/src/images/calle.jpg"
+    "image": "images/calle.jpg"
+  },
+  {
+    "id": 2,
+    "quote": "Hej jag heter Calle",
+    "author": "Adam Agerling",
+    "image": "images/adam.jpg"
   }
 ]

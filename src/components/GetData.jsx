@@ -1,5 +1,5 @@
 import quotes from '../quotes.json'
-console.log(quotes)
+
 const GetData = () => {
   return (
     <div id='getdata'>

@@ -1,3 +1,4 @@
+import calle from '../images/calle.jpg'
 const quotes = require('../quotes.json')
 
 const GetData = () => {
@@ -6,13 +7,14 @@ const GetData = () => {
       {quotes?.map((quote) => (
         <div id='quotes-card' key={quote.id}>
           <h3>
-            <span>Quote:</span>
+            <span className='text-style-one'>Quote: </span>
             {quote.quote}
           </h3>
           <h3>
-            <span>Name:</span>
+            <span className='text-style-one'>Author: </span>
             {quote.author}
           </h3>
+          <img className='icon' src={calle} alt='Calle' />
         </div>
       ))}
     </div>

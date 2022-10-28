@@ -11,7 +11,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  background: url('/public/pumpkin.jpg') no-repeat center center/cover;
+  background: url('/src/images/pumpkin.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -36,6 +36,18 @@ p {
 
 img {
   width: 100%;
+}
+
+/* Utilities */
+.text-style-one {
+  color: #e7900d;
+  font-style: italic;
+  line-height: 2;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 80px;
 }
 
 /* Header */
@@ -90,7 +102,6 @@ img {
 }
 
 #quotes-card {
-  display: inline-block;
   height: 200px;
   width: 300px;
   padding: 20px;
@@ -99,6 +110,7 @@ img {
   opacity: 0.8;
   border-radius: 10px;
   color: #fff;
+  text-align: center;
 }
 
 #quotes-card:hover {

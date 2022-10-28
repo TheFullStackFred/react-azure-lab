@@ -93,7 +93,7 @@ img {
   background-color: yellow;
   box-shadow: 5px 10px #888888;
   transform: rotate(20deg);
-  transition: 30s;
+  transition: 0.8s;
 }
 
 /* Footer */

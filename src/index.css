@@ -85,6 +85,8 @@ img {
 #getdata {
   display: flex;
   justify-content: center;
+  height: 57vh;
+  align-items: center;
 }
 
 #quotes-card {
@@ -92,7 +94,7 @@ img {
   height: 200px;
   width: 300px;
   padding: 20px;
-  border: 2px solid #fff;
+  border: 3px solid #28a745;
   background: #000;
   opacity: 0.8;
   border-radius: 10px;
@@ -101,7 +103,7 @@ img {
 
 #quotes-card:hover {
   box-shadow: #28a745;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #000;
   transform: rotate(20deg);
   transition: 0.8s;
 }

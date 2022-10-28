@@ -10,7 +10,6 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Header />
-        <h1>Azure React Project</h1>
         <Footer />
         <Routes>
           <Route path='/' element={<Home />} />

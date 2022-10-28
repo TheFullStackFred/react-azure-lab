@@ -6,10 +6,13 @@ const GetData = () => {
       {quotes?.map((quote) => (
         <div id='quotes-card' key={quote.id}>
           <h3>
-            Quote:
+            <span>Quote:</span>
             {quote.quote}
           </h3>
-          <h3>Name:{quote.author}</h3>
+          <h3>
+            <span>Name:</span>
+            {quote.author}
+          </h3>
         </div>
       ))}
     </div>

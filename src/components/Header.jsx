@@ -6,19 +6,27 @@ const Header = () => {
     <header id='header'>
       <div id='navbar'>
         <h1 className='logo'>
-          <i className='fa-brands fa-github'></i>
+          <Link to='/'>
+            <i className='fa-brands fa-github'></i>
+          </Link>
           <span className='logo-text'> Fred's</span> App
         </h1>
         <nav>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <Link className='link' to='/'>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link className='link' to='/about'>
+                About
+              </Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <Link className='link' to='/contact'>
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

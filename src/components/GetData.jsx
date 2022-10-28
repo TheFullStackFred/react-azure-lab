@@ -1,6 +1,5 @@
-import calle from '../images/calle.jpg'
-const quotes = require('../quotes.json')
-
+import quotes from '../quotes.json'
+console.log(quotes)
 const GetData = () => {
   return (
     <div id='getdata'>
@@ -14,7 +13,7 @@ const GetData = () => {
             <span className='text-style-one'>Author: </span>
             {quote.author}
           </h3>
-          <img className='icon' src={calle} alt='Calle' />
+          <img className='icon' src={quote.image} alt='Calle' />
         </div>
       ))}
     </div>

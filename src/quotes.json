@@ -2,6 +2,7 @@
   {
     "id": 1,
     "quote": "Hej jag heter Adam",
-    "author": "Calle Özmehak"
+    "author": "Calle Özmehak",
+    "image": "/src/images/calle.jpg"
   }
 ]

@@ -11,6 +11,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
+  background: url('/public/pumpkin.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
 }
 ul {
   list-style: none;
@@ -77,20 +81,26 @@ img {
   color: #28a745;
 }
 
-/* Quotes */
+/* Getdata / quotes */
+#getdata {
+  display: flex;
+  justify-content: center;
+}
+
 #quotes-card {
   display: inline-block;
   height: 200px;
   width: 300px;
   padding: 20px;
   border: 2px solid #fff;
+  background: #000;
+  opacity: 0.8;
   border-radius: 10px;
-  background-color: red;
+  color: #fff;
 }
 
 #quotes-card:hover {
   box-shadow: #28a745;
-  background-color: yellow;
   box-shadow: 5px 10px #888888;
   transform: rotate(20deg);
   transition: 0.8s;

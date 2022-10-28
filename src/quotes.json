@@ -3,15 +3,5 @@
     "id": 1,
     "quote": "Hej jag heter Adam",
     "author": "Calle Özmehak"
-  },
-  {
-    "id": 2,
-    "quote": "Hej jag heter Calle",
-    "author": "Adam Özmehak"
-  },
-  {
-    "id": 3,
-    "quote": "Hej jag heter Mahdi",
-    "author": "Mahdi Agerling"
   }
 ]

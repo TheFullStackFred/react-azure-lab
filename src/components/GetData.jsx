@@ -17,3 +17,24 @@ const GetData = () => {
 }
 
 export default GetData
+
+//   {
+//     "id": 2,
+//     "quote": "Hej jag heter Calle",
+//     "author": "Adam Özmehak"
+//   },
+//   {
+//     "id": 3,
+//     "quote": "Hej jag heter Mahdi",
+//     "author": "Mahdi Agerling"
+//   },
+//   {
+//     "id": 4,
+//     "quote": "Hej jag heter Mahdi",
+//     "author": "Mahdi Agerling"
+//   },
+//   {
+//     "id": 5,
+//     "quote": "Hej jag heter Mahdi",
+//     "author": "Mahdi Agerling"
+//   }

@@ -13,9 +13,9 @@ body {
   line-height: 1.6;
   background: url('/public/images/pumpkin.jpg') no-repeat center center/cover;
   height: 100vh;
-  position: relative;
   color: #fff;
 }
+
 ul {
   list-style: none;
 }
@@ -97,13 +97,13 @@ img {
 #getdata {
   display: flex;
   justify-content: center;
-  height: 57vh;
+  height: 722px;
   align-items: center;
 }
 
 #quotes-card {
-  height: 200px;
-  width: 300px;
+  max-width: 300px;
+  height: auto;
   padding: 20px;
   border: 3px solid #28a745;
   background: #000;
@@ -181,12 +181,34 @@ textarea {
   padding: 0 30px;
 }
 
-@media (max-width: 948px) {
+@media (max-width: 768px) {
+  #header ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header li {
+    padding: 5px;
+  }
+
+  #navbar {
+    height: 120px;
+    z-index: 1;
+  }
+
+  #navbar .logo {
+    display: ruby;
+  }
+
   #getdata {
     flex-direction: column;
   }
 
   #quotes-card {
-    margin: 10px 40px;
+    margin: 25px 0 0;
+  }
+
+  footer {
+    z-index: 1;
   }
 }

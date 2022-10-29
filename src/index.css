@@ -1,13 +1,14 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Open+Sans:wght@300;400&display=swap');
 
-/* Global styles */
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Global styles  */
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;

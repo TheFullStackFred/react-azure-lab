@@ -203,6 +203,7 @@ textarea {
 
   #getdata {
     flex-direction: column;
+    margin-top: 50px;
   }
 
   #quotes-card {

@@ -1,9 +1,21 @@
-import quotes from '../quotes.json'
+import { useEffect, useState } from 'react'
 
 const GetData = () => {
+  const [data, setData] = useState()
+
+  const fetchQuotes = async () => {
+    const response = await fetch('quotes.json')
+    const data = await response.json()
+    setData(data)
+  }
+
+  useEffect(() => {
+    fetchQuotes()
+  }, [])
+
   return (
     <div id='getdata'>
-      {quotes?.map((quote) => (
+      {data?.map((quote) => (
         <div id='quotes-card' key={quote.id}>
           <h3 className='quote-h3'>
             <span className='text-style-one'>Quote: </span>
